@@ -1,0 +1,13 @@
+int main() {
+
+    int receiver_pid;
+    
+    printf("Enter the process ID of the receiver program: ");
+    scanf("%d", &receiver_pid);
+
+    kill(receiver_pid, SIGUSR1);
+
+    printf("SIGUSR1 signal sent to process %d\n", receiver_pid);
+
+    return 0;
+}
