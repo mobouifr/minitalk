@@ -1,0 +1,16 @@
+# Build artifacts
+*.o
+*.out
+a.out
+
+# Executables
+client
+server
+client_bonus
+server_bonus
+
+# Editor / OS files
+.DS_Store
+*.swp
+*.swo
+.vscode/
